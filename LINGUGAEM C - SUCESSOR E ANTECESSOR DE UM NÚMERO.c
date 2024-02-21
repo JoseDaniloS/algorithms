@@ -3,20 +3,20 @@
 
 int main(){
 	
-	//DEFINIÇÃO DE VARIAVEIS
+	//DEFINIÃ‡ÃƒO DE VARIAVEIS
 	float x ;
 	
 	setlocale(LC_ALL,"Portuguese");
 	
 	//SOLICITA AO USUARIO UM NUMERO
-	printf("Digite um Número:");
+	printf("Digite um NÃºmero:");
 	scanf("%f", &x);
 	
 	//O ANTECESSOR DO NUMERO
-	printf("O Antecessor do Numero Digitado é:  %f \n", (x-1));
+	printf("O Antecessor do Numero Digitado Ã©:  %f \n", (x-1));
 	
-	//O SUCESSOR DO NÚMERO
-	printf("O Sucessor do Numero Digitado é:  %f", (x+1));
+	//O SUCESSOR DO NÃšMERO
+	printf("O Sucessor do Numero Digitado Ã©:  %f", (x+1));
 	
 	
 	
